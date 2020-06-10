@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+#slide1-1 {
+    background: #5D287B;
+}
+
+.wrapper-next {
+    width: 100%;
+    max-width: 56.222vh;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.fp-controlArrow {
+    background: transparent;
+    cursor: default;
+    margin: 0 auto;
+}
+
+.content__inner {
+    background: #5D287B url(../img/terminal.png) no-repeat;
+    background-position: 50% 90%;
+    background-size: 45.715vh;
+    padding: 5.85vh 5.85vh 2.19vh 5.85vh;
+}
+
+.content__header{
+    height: auto;
+    width: 100%;
+}
+.header__title-first {
+    font-weight: bold;
+    font-size: 6.002vh;
+    line-height: 7.32vh;
+    letter-spacing: -0.02em;
+    height: auto;
+    width: 100%;
+    margin-bottom: 2.196vh;
+}
+
+.header__title-first-second {
+    width: 100%;
+    font-size: 4.392vh;
+    line-height: 5.856vh;
+}
+
+.header__title-second {
+    width: 100%;
+   font-weight: 500;
+    font-size: 2.196vh;
+    line-height: 3.294vh;
+    letter-spacing: -0.02em;
+}
+
+.content__footer,
+.footer__link{
+    height: auto;
+    width: 100%;
+}
+.content__footer {
+    margin: 0 auto;
+}
+
+
+/*==============второй слайд==============*/
+
+#slide1-2 {
+    background: #E4622E;
+}
+
+.content__inner-second {
+    background: #E4622E url(../img/hand-blob.png) no-repeat;
+    background-position: 50% 60%;
+    background-size: 43.872vh;
+}
+
+/*============трейтий слайд============*/
+
+#slide1-3 {
+    background: #5980BC;
+}
+
+.content__inner-third {
+    background: #5980BC url(../img/hands_bubble.png) no-repeat;
+    background-position: 50% 65%;
+    background-size: 47.632vh;
+    position: relative;
+}
+
+.timer {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 19.399vh;
+    width: 19.399vh;
+    border-radius: 50%;
+    font-size: 7.027vh;
+    background: #B2D6EC;
+    text-align: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    z-index: 6;
+    box-sizing: content-box;
+}
+
+ /*============четвертый слайд============*/
+
+ #slide1-4 {
+    background: #71A52C;
+ }
+
+ .content__inner-fourth {
+    background: #71A52C url(../img/end-smile.png) no-repeat;
+    background-position: 50% 70%;
+    background-size: 42.196vh;
+ }
+
+/*============страничка info========*/
+
+#slide1-5 {
+    background: #D21318;
+}
+
+.content__inner-info {
+    background: #D21318 url(../img/info_smile.png) no-repeat;
+    background-position: 50% 60%;
+    background-size: 42.064vh;
+    padding: 5.85vh 5.85vh 2.19vh 5.85vh;
+    margin: 0 auto;
+}
+
+.header__title-first-info {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.002vh;
+    line-height: 7.320vh;
+    letter-spacing: -0.02em;
+    width: 100%;
+}
+
+.header__title-second-info {
+    font-size: 5.124vh;
+    line-height: 5.856vh;
+}
+
+.footer__link {
+    cursor: pointer;
+}
+
+.link__image {
+    height: 2.1963vh;
+}
+
+
+@media screen and (max-width: 800px ) {
+
+    .content__inner {
+        padding: 5.85vh 0 2.19vh 0;
+    }
+
+    .content__inner-info {
+        padding: 5.85vh 0 2.19vh 0;
+    }
+
+    .content__inner-third {
+         background-size: 37.632vh;
+    }
+}
+
+@media screen and (max-width: 500px ) {
+    .content__inner {
+         background-size: 35.715vh;
+    }
+    .content__inner-second {
+         background-size: 33.872vh;
+    }
+
+    .content__inner-third {
+         background-size: 27.632vh;
+    }
+     .content__inner-fourth {
+         background-size: 32.196vh;
+    }
+
+    .content__inner-info {
+        background-size: 32.064vh;
+    }
+
+    .header__title-second-info {
+        font-size: 4.002vh;
+        line-height: 5.320vh;
+    }
+}

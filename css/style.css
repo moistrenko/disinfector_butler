@@ -1,0 +1,462 @@
+body {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.slide__wrapper {
+	margin: auto;
+}
+
+.content__inner {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 56.22vh;
+	height: 100vh;
+	margin: auto;
+	padding: 5.85vh 5.85vh 2.19vh 5.85vh;
+	background: url(../img/first_smile.png) no-repeat;
+	background-position: 50% 55%;
+	background-size: 65%;
+}
+
+.header__title-first {
+	font-weight: bold;
+	font-size: 3.95vh;
+	line-height: 4.83vh;
+	margin-bottom: 1.46vh;
+}
+
+.header__title-second {
+	font-weight: bold;
+	font-size: 6.22vh;
+	line-height: 7.61vh;
+	letter-spacing: -0.02em;
+}
+
+.content__footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	margin-bottom: .73vh;
+}
+.button-next {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
+	margin: auto;
+	min-width: 25.62vh;
+	height: 11vh;
+	min-height: 6.58vh;
+	background: #FFFFFF;
+	box-shadow: 0 1.83vh 3.66vh rgba(0, 0, 0, 0.35), 
+				0 0.366vh 1.098vh rgba(0, 0, 0, 0.25);
+	border-radius: 3.66vh 0;
+	font-weight: bold;
+	font-size: 3.95vh;
+	line-height: 4.83vh;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+  transition: box-shadow .2s, border-color .2s;
+}
+
+.button-next:hover,
+.button-next:focus,
+.numeral__item:hover,
+.numeral__item:focus{
+	box-shadow: 
+	  	inset 0 -0.073vh 0.073vh rgba(0,0,0,0), 
+	  	inset 0 0.073vh 0.146vh rgba(0,0,0,0),
+	  	inset 0 0 0 4.39vh rgba(250,250,250,.5);
+	transform: scale(1.01);
+}
+
+.button-next:active,
+.numeral__item:active {
+	padding: calc(.25em + 0.073vh) .5em calc(.25em - 0.073vh);
+	border-color: rgba(177,159,0,1);
+	box-shadow: 
+		inset 0 -0.146vh 0.146vh rgba(0,0,0,.1), 
+		inset 0 0.146vh 0.219vh rgba(0,0,0,.3), 
+		inset 0 0 0 4.39vh rgba(250,250,250,.45);
+	transform: scale(1);
+}
+
+.footer__link {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 500;
+	font-size: 1.098vh;
+	line-height: 2.317vh;
+	letter-spacing: -0.02em;
+	opacity: 0.7;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 1.464vh;
+}
+
+.footer__link img {
+	margin-left: 0.805vh;
+}
+
+/*=============второй слайд=========*/
+
+.header__title-first--size {
+	font-size: 13.177vh;
+	line-height: 16.032vh;
+	letter-spacing: -0.02em;
+}
+
+.header__title-second--size {
+	font-weight: bold;
+	font-size: 4.099vh;
+	line-height: 4.978vh;
+	letter-spacing: -0.02em;
+
+}
+
+.header__discription {
+	font-weight: 500;
+	font-size: 2.196vh;
+	line-height: 3.294vh;
+	letter-spacing: -0.02em;
+	margin-top: 2.19vh;
+}
+.wrapper {
+	background: #E99A09;
+}
+
+.second-slide {
+	background: #E99A09 url(../img/cheese.png) no-repeat;
+	background-position: 100% 100%;
+	background-size: 100%;
+}
+
+.footer__link--color {
+	color:#000;
+}
+
+/*===========третий слайд==========*/
+
+.third-slide,
+.third-slide .content__inner {
+	background: #6C9F2B;
+}
+
+.content__progress-bar {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.progress-bar__circle {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	height: 5.856vh;
+	width: 5.856vh;
+	border-radius: 50%;
+	font-weight: bold;
+	font-size: 2.196vh;
+	background: transparent;
+	border: .219vh solid #FFFFFF;
+	box-sizing: border-box;
+	color:#fff;
+}
+
+.progress-bar__circle--green {
+	 background: #2C7630;
+	 border: .219vh solid #2C7630;
+}
+
+.progress--active {
+	background: #fff;
+	color: #2C7630;
+}
+
+.porgress__line {
+	width: 10%;
+	height: .292vh;
+	background: #fff;
+}
+
+.progress__line--green {
+	background: #2C7630;
+}
+
+.number	{
+	width: 100%;
+	height: 8.784vh;
+	background: #FFFFFF;
+	border: .146vh solid #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: inset 0 .732vh 1.464vh rgba(0, 0, 0, 0.2);
+	border-radius: 1.464vh;
+	font-weight: 500;
+	font-size: 4.392vh;
+	line-height:8.784vh;
+	text-align: center;
+	color: #000000;
+}
+
+.telephone {
+	-ms-align-self: center;
+	align-self: center;
+	width: 70%;
+}
+
+.numeral__row{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 2.196vh;
+	justify-content: space-around;
+}
+
+.numeral__item--visibility {
+	visibility: hidden;
+}
+
+.numeral__item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 7.32vh;
+	width: 7.32vh;
+	border-radius: 50%;
+	background: #fff;
+	font-weight: bold;
+	font-size: 2.928vh;
+	color: #000000;
+	border: none; 
+	outline: none;
+	cursor: pointer;
+}
+
+.numeral__item--size {
+	font-size: 5.124vh;
+	padding-bottom: 1%;
+}
+
+.numeral__item--del {
+	background: transparent;
+	border: none;
+}
+
+.numeral__item--del:hover,
+.numeral__item--del:focus,
+.numeral__item--del:active {
+		box-shadow: none;
+}
+
+.item__del {
+	height: 3.367vh;
+}
+
+.qr_code {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;	
+
+		justify-content: space-around;
+}
+
+.qr-code__inner{
+	margin-right: 10%;
+}
+
+.qr-code__inner p,
+.qr-code__inner a {
+	display: block;
+	text-align: left;
+	font-weight: 500;
+	font-size: 1.756vh;
+	line-height: 2.196vh;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+	margin-top: .732vh;
+}
+.qr-code__inner a {
+	font-weight: bold;
+	text-decoration-style: dotted;
+}
+
+.button-next--size {
+	width: 25%;
+	min-width: 10.98vh;
+}
+
+/*================слайд с промо кодом=============*/
+
+.section__qr-code .wrapper {
+	background: #5981BC;
+}
+
+.section2-slide {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: url(../img/QR-code_smile.png) no-repeat;
+	background-position: 50% 30%;
+	background-size: 40vh;
+}
+
+.content__header {
+	-ms-align-self: flex-start;
+	align-self: flex-start;
+}
+
+.footer__title {
+	font-weight: bold;
+	font-size: 4.465vh;
+	line-height: 5.417vh;
+	letter-spacing: -0.02em;
+	margin-bottom: 4.09vh;
+	
+}
+
+.footer__qr-code {
+	-ms-align-self: center;
+	align-self: center;
+
+}
+
+/*=============четвертый слайд============*/
+
+#slide1-4 .wrapper {
+	background: #544D93;
+}
+
+.header--background {
+	background: url(../img/final_smile.png) no-repeat;
+	background-position: 50% 5%;
+	background-size: 40vh;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 4.099vh;
+	line-height: 4.978vh;
+	letter-spacing: -0.02em;
+	margin-bottom: 1.4vh;
+}
+
+.code-discription {
+	font-size: 2.196vh;
+	line-height: 3.294vh;
+	letter-spacing: -0.03em;
+}
+
+.code {
+	font-style: normal;
+	font-weight: 200;
+	font-size: 13.177vh;
+	line-height: 16.032vh;
+	letter-spacing: 0.03em;
+	margin-bottom: 1.9vh;
+}
+
+.Logo_Bafsy {
+	height: 2.369vh;
+}
+
+.qr-code__image {
+	height: 19.033vh;
+}
+
+.arrow {
+	height: 3.074vh
+}
+
+.mask-hidden,
+.mask-hidden:hover,
+.mask-hidden:focus,
+.mask-hidden:active {
+	opacity: 0.5;
+	box-shadow: none;
+	transform: none;
+	padding: 0;
+	margin: 0;
+}
+
+.error-mask {
+	border: 1px solid #cc0000;
+	position: relative;
+}
+
+.error-mask:after {
+	display: block;
+	position: absolute;
+	top: 9.5vh;
+	left:50%;
+	width: 80%;
+	transform: translateX(-50%);
+	content: "Введите корректный номер телефона";
+	color: 	#cc0000;
+	font-size: 2vh;
+	line-height: 2vh;
+}
+
+.button-next .fp-controlArrow {
+	width: auto;
+	height: 3.07vh;
+}
